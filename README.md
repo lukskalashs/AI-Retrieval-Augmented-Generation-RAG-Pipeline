@@ -8,17 +8,17 @@
 > **CSIA6853 (Natural Language Processing) Honours Final Project**  
 > **Author:** Lukhanyo Floris Kalashe
 
-![Project Header Image](watermarked_img_4892936129908303320.png)
+![Project Header Image](data/dw.jpg)
 *(Note: Upload the generated image to your repo and update this path if needed)*
 
-## 📋 Executive Summary
+## Executive Summary
 This repository contains the code, evaluation notebooks, and final research paper for a localized **Retrieval-Augmented Generation (RAG)** system. Built to assist Software Engineering students, the system extracts factually grounded answers from highly fragmented, bullet-point-heavy university lecture slides. 
 
 By engineering a **Hybrid Reciprocal Rank Fusion (RRF) pipeline** protected by strict mathematical confidence gates, the system completely eliminated LLM hallucinations and achieved a **0.786 semantic accuracy score**.
 
 ---
 
-## 🛑 The Challenge
+## The Challenge
 Standard LLMs hallucinate when asked highly specific, course-related academic questions. While standard RAG architectures solve this for continuous, dense documents (like Wikipedia or scientific papers), they fail when applied to undergraduate lecture slides, which are:
 * **Incredibly sparse** (mean length of just 42.9 words per slide).
 * **Heavily bullet-pointed** with empty structural headers.
@@ -26,7 +26,7 @@ Standard LLMs hallucinate when asked highly specific, course-related academic qu
 
 ---
 
-## 🏗️ Architecture & Pipeline
+## Architecture & Pipeline
 
 The system transforms 398 pages of messy PDFs into actionable insights via a 6-step pipeline:
 
@@ -39,7 +39,7 @@ The system transforms 398 pages of messy PDFs into actionable insights via a 6-s
 
 ---
 
-## 🚀 Key Engineering Breakthroughs (The "Pivots")
+## Key Engineering Breakthroughs (The "Pivots")
 
 A major focus of this project was data-driven iteration and error analysis:
 
@@ -50,7 +50,7 @@ A major focus of this project was data-driven iteration and error analysis:
 
 ---
 
-## 📊 Results & Impact
+## Results & Impact
 
 * **Accuracy Boost:** The Hybrid RRF architecture elevated the system's ground-truth semantic similarity score from a `0.351` baseline to **`0.786` (a massive +0.434 gain)**.
 * **Retrieval Success:** Achieved a **90% Recall@5** success rate on formal ground-truth testing.
@@ -58,7 +58,7 @@ A major focus of this project was data-driven iteration and error analysis:
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 * **Language:** Python
 * **AI/NLP Models:** GPT-4o-mini (OpenAI API), Sentence-Transformers (`all-MiniLM-L6-v2`)
 * **Core Libraries:** LangChain, FAISS, Scikit-learn, PyMuPDF
@@ -66,7 +66,7 @@ A major focus of this project was data-driven iteration and error analysis:
 
 ---
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 * Python 3.10+
@@ -75,5 +75,5 @@ A major focus of this project was data-driven iteration and error analysis:
 ### Setup Instructions
 1. Clone the repository:
 ```bash
-   git clone [https://github.com/yourusername/se-rag-system.git](https://github.com/yourusername/se-rag-system.git)
-   cd se-rag-system
+   git clone [https://github.com/lukskalashs/AI-Retrieval-Augmented-Generation-RAG-Pipeline]
+   
