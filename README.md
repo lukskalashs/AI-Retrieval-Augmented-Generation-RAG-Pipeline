@@ -9,7 +9,7 @@
 > **Author:** Lukhanyo Floris Kalashe
 
 ![Project Header Image](data/dw.jpg)
-*(Note: Upload the generated image to your repo and update this path if needed)*
+
 
 ## Executive Summary
 This repository contains the code, evaluation notebooks, and final research paper for a localized **Retrieval-Augmented Generation (RAG)** system. Built to assist Software Engineering students, the system extracts factually grounded answers from highly fragmented, bullet-point-heavy university lecture slides. 
